@@ -11,12 +11,9 @@ new g_iUsluga;
 
 
 new const g_szJednostkaIlosci[][] = {
-	"Poczatkujacy",
 	"Podstawowy",
 	"Weteran" ,
-	"Ekspert" ,
-	"Profesjonalista" ,
-	"Licencja Agenta 007" 
+	"Ekspert" 
 	//Wypisz tutaj liste odznak
 	//Pamietaj ze ostatnia usluga nie ma na koncu przecinka!
 }
@@ -24,10 +21,7 @@ new const g_szJednostkaIlosci[][] = {
 new const g_szCena[][][] = {
 	{ "4,92", "4,92 zl SMS" },
 	{ "6,15", "6,15 zl SMS" },
-	{ "8,61", "8,61 zl SMS" },
-	{ "9,84", "9,84 zl SMS" },
-	{ "11,07", "11,07 zl SMS" },
-	{ "17,22", "17,22 zl SMS" }
+	{ "8,61", "8,61 zl SMS" }
 	//Wypisz tutaj w takiej samej kolejnosci jak dlugosci uslug ich ceny
 	//Format: "kr. cena", "dl. cena"
 	//krotka cena - cena SMSa uslugi - zlotowki i grosze oddzielone przecinkiem

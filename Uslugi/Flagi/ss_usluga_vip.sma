@@ -11,9 +11,8 @@ new g_iUsluga;
 #define FLAGA "t"				//flaga jaka ma dostac gracz
 
 new const g_szJednostkaIlosci[][][] = {
-	{ "7", "7 dni" },
-	{ "30", "30 dni" },
-	{ "60", "60 dni" }
+	{ "3", "3 dni" },
+	{ "30", "30 dni" }
 	//Wypisz tutaj po kolei dlugosci uslug
 	//Format: "kr. czas", "dl. czas"
 	//dlugi czas - wyswietlany jest w np. menu
@@ -22,9 +21,8 @@ new const g_szJednostkaIlosci[][][] = {
 }
 
 new const g_szCena[][][] = {
-	{ "4,92", "4,92 zl SMS / 3 zl przelew / 4 zl PSC" },
-	{ "11,07", "11,07 zl SMS / 9 zl przelew / 10 zl PSC" },
-	{ "17,22", "17,22 zl SMS / 15 zl przelew / 16 zl PSC" }
+	{ "1,23", "1,23 zl SMS" },
+	{ "11,07", "11,07 zl SMS / 9 zl przelew / 10 zl PSC" }
 	//Wypisz tutaj w takiej samej kolejnosci jak dlugosci uslug ich ceny
 	//Format: "kr. cena", "dl. cena"
 	//krotka cena - cena SMSa uslugi - zlotowki i grosze oddzielone przecinkiem

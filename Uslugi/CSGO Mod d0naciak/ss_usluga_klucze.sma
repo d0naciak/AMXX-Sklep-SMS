@@ -11,9 +11,9 @@ new g_iUsluga;
 
 
 new const g_szJednostkaIlosci[][][] = {
+	{ "10", "10 kluczy" },
 	{ "25", "25 kluczy" },
-	{ "50", "50 kluczy" },
-	{ "100", "100 kluczy" }
+	{ "50", "50 kluczy" }
 	//Wypisz tutaj po kolei jednostke ilosci uslug
 	//Format: "kr. jednostka", "dl. jednostka"
 	//dluga jednostka - wyswietlana jest w np. menu

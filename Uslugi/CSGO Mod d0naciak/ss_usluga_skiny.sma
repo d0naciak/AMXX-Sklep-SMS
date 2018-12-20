@@ -9,8 +9,8 @@ new g_iUsluga;
 
 #define NAZWA_DL "Dowolny skin" 				//Nazwa uslugi wyswietlana w menu
 #define NAZWA_KR "skiny" 						//nazwa uslugi uzywana w logach, jako okienko MOTD itd.
-#define CENA_KR "7,38"						//krotka cena SMS (wstawiaj przecinek, nie kropke!)
-#define CENA_DL "7,38 zl SMS / 5 zl przelew / 5 zl PSC"		//dluga cena ktora wyswietlana bedzie w menu
+#define CENA_KR "2,46"						//krotka cena SMS (wstawiaj przecinek, nie kropke!)
+#define CENA_DL "2,46 zl SMS / 2 zl przelew / 2 zl PSC"		//dluga cena ktora wyswietlana bedzie w menu
 
 new g_iOstatnioWybranaBron[33];
 new g_iOstatnioWybranySkin[33];

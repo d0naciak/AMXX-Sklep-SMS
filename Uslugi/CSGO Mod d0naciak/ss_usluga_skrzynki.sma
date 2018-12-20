@@ -12,7 +12,7 @@ new g_iUsluga;
 
 new const g_szJednostkaIlosci[][][] = {
 	{ "1", "1 skrzynka" },
-	{ "3", "3 skrzynki" },
+	{ "4", "3 skrzynki" },
 	{ "8", "8 skrzynek" }
 	//Wypisz tutaj po kolei jednostke ilosci uslug
 	//Format: "kr. jednostka", "dl. jednostka"
@@ -22,8 +22,8 @@ new const g_szJednostkaIlosci[][][] = {
 }
 
 new const g_szCena[][][] = {
-	{ "3,69", "3,69 zl SMS" },
-	{ "9,84", "9,84 zl SMS / 7 zl przelew / 8 zl PSC" },
+	{ "3,69", "3,69 zl SMS / 3 zl przelew / 3 zl PSC" },
+	{ "11,07", "11,07 zl SMS / 8 zl przelew / 9 zl PSC" },
 	{ "17,22", "17,22 zl SMS / 14 zl przelew / 16 zl PSC" }
 	//Wypisz tutaj w takiej samej kolejnosci jak dlugosci uslug ich ceny
 	//Format: "kr. cena", "dl. cena"
