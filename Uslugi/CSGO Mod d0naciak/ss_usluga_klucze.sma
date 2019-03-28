@@ -24,7 +24,7 @@ new const g_szJednostkaIlosci[][][] = {
 new const g_szCena[][][] = {
 	{ "1,23", "1,23 zl SMS / 1 zl przelew / 1 zl PSC" },
 	{ "2,46", "2,46 zl SMS / 2 zl przelew / 2 zl PSC" },
-	{ "6,15", "6,15 zl SMS / 5 zl przelew / 5 zl PSC" }
+	{ "4,92", "4,92 zl SMS / 4 zl przelew / 4 zl PSC" }
 	//Wypisz tutaj w takiej samej kolejnosci jak dlugosci uslug ich ceny
 	//Format: "kr. cena", "dl. cena"
 	//krotka cena - cena SMSa uslugi - zlotowki i grosze oddzielone przecinkiem
