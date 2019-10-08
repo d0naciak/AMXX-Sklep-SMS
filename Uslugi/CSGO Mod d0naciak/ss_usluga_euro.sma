@@ -12,7 +12,7 @@ new g_iUsluga;
 
 new const g_szJednostkaIlosci[][][] = {
 	{ "500", "5.00 Euro" },
-	{ "1500", "15.00 Euro" },
+	{ "1200", "12.00 Euro" },
 	{ "2500", "25.00 Euro" }
 	//Wypisz tutaj po kolei jednostke ilosci uslug
 	//Format: "kr. jednostka", "dl. jednostka"
@@ -22,9 +22,9 @@ new const g_szJednostkaIlosci[][][] = {
 }
 
 new const g_szCena[][][] = {
-	{ "1,23", "1,23 zl SMS / 1 zl przelew / 1 zl PSC" },
-	{ "2,46", "2,46 zl SMS / 2 zl przelew / 2 zl PSC" },
-	{ "6,15", "6,15 zl SMS / 5 zl przelew / 5 zl PSC" }
+	{ "2,46", "2,46 zl SMS" },
+	{ "4,92", "4,92 zl SMS" },
+	{ "6,15", "6,15 zl SMS / 3,50 zl przelew / 4 zl PSC" }
 	//Wypisz tutaj w takiej samej kolejnosci jak dlugosci uslug ich ceny
 	//Format: "kr. cena", "dl. cena"
 	//krotka cena - cena SMSa uslugi - zlotowki i grosze oddzielone przecinkiem

@@ -11,9 +11,9 @@ new g_iUsluga;
 
 
 new const g_szJednostkaIlosci[][][] = {
-	{ "10", "10 kluczy" },
-	{ "25", "25 kluczy" },
-	{ "50", "50 kluczy" }
+	{ "8", "8 kluczy" },
+	{ "20", "20 kluczy" },
+	{ "40", "40 kluczy" }
 	//Wypisz tutaj po kolei jednostke ilosci uslug
 	//Format: "kr. jednostka", "dl. jednostka"
 	//dluga jednostka - wyswietlana jest w np. menu
@@ -22,9 +22,9 @@ new const g_szJednostkaIlosci[][][] = {
 }
 
 new const g_szCena[][][] = {
-	{ "1,23", "1,23 zl SMS / 1 zl przelew / 1 zl PSC" },
-	{ "2,46", "2,46 zl SMS / 2 zl przelew / 2 zl PSC" },
-	{ "4,92", "4,92 zl SMS / 4 zl przelew / 4 zl PSC" }
+	{ "2,46", "2,46 zl SMS" },
+	{ "4,92", "4,92 zl SMS" },
+	{ "6,15", "6,15 zl SMS / 3,50 zl przelew / 4 zl PSC" }
 	//Wypisz tutaj w takiej samej kolejnosci jak dlugosci uslug ich ceny
 	//Format: "kr. cena", "dl. cena"
 	//krotka cena - cena SMSa uslugi - zlotowki i grosze oddzielone przecinkiem
